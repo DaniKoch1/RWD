@@ -1,0 +1,33 @@
+body{
+    background-color: darkkhaki;
+}
+fieldset{
+    float:left;
+    background-color: darkseagreen;
+    font-family: "Gill Sans", sans-serif;
+}
+legend{
+    color: crimson;
+    font-family: "papyrus", fantasy;
+    font-style: bold;
+}
+input, textarea{
+    font-style: italic;
+}
+select, p{
+    font-family: "Goudy Old Style", Serif;
+}
+.subres{
+    background-color: burlywood;
+    border-style: outset;
+    border-color: burlywood;
+    
+}
+select, option, .fields{
+    background-color: whitesmoke;
+}
+input{
+    background-color: gainsboro;
+}
+/*input [type=coś]*/
+/*ogarnąć, żeby przy hover się zmieniały*/

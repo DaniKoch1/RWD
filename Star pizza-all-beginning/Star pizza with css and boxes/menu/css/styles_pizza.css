@@ -1,0 +1,40 @@
+* {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+body {
+    background-image: url("../Images/pizza_background_small.jpg");
+    background-repeat: repeat;
+    color: firebrick;
+}
+p {
+    font-size: 1.3em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1 {
+    font-family: "Broadway", monospace;
+    font-size: 2.5em;
+}
+
+
+li {
+    font-size: 1.2em;
+    display:inline;
+    margin-right: 2%;
+    list-style: none;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+a{
+    color:blue;
+}
+
+a:hover{
+    color:cadetblue;
+}
+alt {
+    font-size: 2.0;
+}
+img {
+    border: 2px solid #BBBBFF;
+}

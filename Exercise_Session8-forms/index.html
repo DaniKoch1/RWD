@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercise. Eighth RWD Session</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" /> </head>
+
+<body>
+    <h1>Exercise, Eighth RWD Session</h1>
+    <p>Try to use forms.</p>
+    <ol>
+        <li>Add a reset button to the form above.</li>
+        <li>Add a text area to the form above.</li>
+        <li>Create a form and put the following items in a drop-down list or datalist control:
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Kiwi</li>
+                <li>Orange</li>
+            </ul> The list should defeault select Kiwi. </li>
+        <li>Create a form that uses the checkbox type of input (2 or more options).</li>
+        <li>Create a form that uses the radio type of input with the following music genres: Heavy Metal, Rock, Punk, Indie, Pop, Electronic, Country, Classical, and Jazz.</li>
+        <li>Style your forms with CSS.</li>
+    </ol>
+    <form action="http://www.no-where.com/formhandler.php" method="get">
+        <fieldset>
+            <legend>My Form</legend>
+            <label>First field:
+                <input class="fields" type="text" name="firstField" id="firstField" value="Type here"> </label>
+            <label>Second field:
+                <input class="fields" type="text" name="secondField" id="secondField"> </label>
+            <label>
+                <p>Tell us something about yourself:</p>
+                <textarea class="fields">Type here</textarea>
+            </label>
+            <br><br>
+            <input class="subres" type="submit" value="Submit this form">
+            <input class="subres" type="reset" value="Reset">
+            <!- można bez value, ale wtedy jest po polsku...->
+        </fieldset>
+    </form>
+    <form action: "" method="get">
+        <fieldset>
+            <Legend>Fruits</Legend>
+            <p>What's your favourite fruit?</p>
+            <select name="Favourite fruit">
+                <!--size="4"-->
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi" selected>Kiwi</option>
+                <option value="Orange">Orange</option>
+            </select>
+            <br><br>
+            <input class="subres" type="submit" value="Submit this form">
+            <input class="subres" type="reset" value="Reset"> </fieldset>
+    </form>
+    <form action="" method="get">
+        <fieldset>
+            <Legend>Dance</Legend>
+            <p>Which street dances have you tried?</p>
+            <input type="checkbox" name="Dance" value="hip-hop">Hip-hop
+            <br>
+            <input type="checkbox" name="Dance" value="house">House
+            <br>
+            <input type="checkbox" name="Dance" value="lockng">Locking
+            <br>
+            <input type="checkbox" name="Dance" value="break dance">Break dance
+            <br>
+            <input type="checkbox" name="Dance" value="popping">Popping
+            <br>
+            <input type="checkbox" name="Dance" value="krump">Krump
+            <br>
+            <input type="checkbox" name="Dance" value="nsh">New style hustle 
+        <br><br>
+            <input class="subres" type="submit" value="Submit this form">
+            <input class="subres" type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <form action="" method="get">
+        <fieldset>
+            <Legend>Music</Legend> <p>What's you favourite kind of music?</p>
+            <br>
+            <input type="radio" name="Music" value="Heavy Metal">Heavy Metal
+            <br>
+            <input type="radio" name="Music" value="Rock">Rock
+            <br>
+            <input type="radio" name="Music" value="Punk">Punk
+            <br>
+            <input type="radio" name="Music" value="Indie">Indie
+            <br>
+            <input type="radio" name="Music" value="Pop">Pop
+            <br>
+            <input type="radio" name="Music" value="Electronic">Electronic
+            <br>
+            <input type="radio" name="Music" value="Country">Country
+            <br>
+            <input type="radio" name="Music" value="Classical" checked>Classical
+            <br>
+            <input type="radio" name="Music" value="Jazz">Jazz
+            <br><br>
+            <input class="subres" type="submit" value="Submit this form">
+            <input class="subres" type="reset" value="Reset"> 
+        </fieldset>
+    </form>
+</body>
+
+</html>

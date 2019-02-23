@@ -1,0 +1,35 @@
+* {
+  font-size: 1.1em;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #DDDDFF;
+}
+
+h1 {
+    color: #AAAAFF;
+    font-family: "Broadway", monospace;
+    font-size: 1.9em
+}
+h2{
+    font-size: 1.3em;
+}
+p {
+    font-family: "Verdana", sans-serif;
+}
+
+li {
+    font-size: 0.7em;
+    
+}
+a{
+    color:#AAAAFF;
+    text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
+}
+
+a:hover{
+    color:fuchsia;
+}
